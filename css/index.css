@@ -98,41 +98,30 @@ body {
 	padding:10px;
 	text-align: center;
 }
-.mainbox {
+.topbox {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 40px;
+    margin-bottom: 20px; 
     
 }
 .tboxl {
     text-align: justify;
     width: 100%;
 	padding: 70px 10;
-    margin-bottom: 20px;
+    margin: 5px;
     border-bottom: 1px dashed black;
 }
 .tboxr {
     text-align: justify;
     width: 100%;
     padding: 70px 10;
-    margin-bottom: 20px;
+    margin: 5px;
     border-bottom: 1px dashed black;
-    
 }
 .timgl {
-    height: 200px;
-    margin: 50px;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-    width: 100%;
-    margin-right: auto;
-}
-.timgr {
-    height: 200px;
+    height: 220px;
     margin: 50px;
     color: white;
     align-items: center;
@@ -141,7 +130,24 @@ body {
     width: 100%;
     margin-left: auto;
 }
-
+.timgr {
+    height: 220px;
+    margin: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    margin-left: auto;
+}
+.bottombox {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px; 
+    
+}
 .bboxl  {
     text-align: justify;
     width: 100%;
@@ -157,19 +163,18 @@ body {
     border-bottom: 1px dashed black;
     
 }
-
 .bimgl {
-    height: 200px;
+    height: 220px;
     margin: 50px;
     color: white;
     align-items: center;
     justify-content: center;
     text-align: justify;
     width: 100%;
-    margin-right: auto;
+    margin-left: auto;
 }
 .bimgr {
-    height: 200px;
+    height: 220px;
     margin: 50px;
     color: white;
     align-items: center;
