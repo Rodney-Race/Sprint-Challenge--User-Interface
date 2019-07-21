@@ -73,8 +73,50 @@ h1, h2, h3, h4, h5 {
     width: 100px;
 	margin: 0 auto;
 	text-align: center;
-    color: black;
-    
+    color: black;  
+}
+.mainbox {
+    display: flex;
+	justify-content: center;
+	align-items: flex-start;
+    flex-wrap: wrap;
+	margin-top: 40px;
+}
+.tbox {
+    background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.bbox {
+    background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.timg {
+    background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
+}
+.bimg {
+    background-color: rgb(239, 240, 227);
+	height: 200px;
+	width: 42%;
+	
+	padding: 20px;
+	margin: 15px;
+	text-align: left;
 }
 
 .tophead {
