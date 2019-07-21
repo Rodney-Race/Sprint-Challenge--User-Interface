@@ -107,21 +107,18 @@ body {
     
 }
 .tboxl {
-
-    padding: 70px 10;
+    text-align: justify;
+    width: 100%;
+	padding: 70px 10;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .tboxr {
-    
+    text-align: justify;
+    width: 100%;
     padding: 70px 10;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-} .tboxl .tboxr {
-    margin: auto;
-    padding: 10px;
-    text-align: justify;
-    width: 100%;
     
 }
 .timgl {
@@ -130,7 +127,8 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    
+    text-align: justify;
+    width: 100%;
     margin-right: auto;
 }
 .timgr {
@@ -139,37 +137,36 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    
-    margin-left: auto;
-}
-.timgl .timgr {
     text-align: justify;
     width: 100%;
+    margin-left: auto;
 }
+
 .bboxl  {
+    text-align: justify;
+    width: 100%;
 	padding: 70px 10;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .bboxr {
+    text-align: justify;
+    width: 100%;
     padding: 70px 10;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     
 }
-.bboxl .bboxr {
-    text-align: justify;
-    width: 100%;
-    
-}
+
 .bimgl {
     height: 200px;
     margin: 50px;
     color: white;
     align-items: center;
     justify-content: center;
-    
-    margin-left: auto;
+    text-align: justify;
+    width: 100%;
+    margin-right: auto;
 }
 .bimgr {
     height: 200px;
@@ -177,12 +174,9 @@ body {
     color: white;
     align-items: center;
     justify-content: center;
-    
-    margin-left: auto;
-}
-.bimgl .bimgr {
     text-align: justify;
     width: 100%;
+    margin-left: auto;
 }
 
 p {
@@ -190,7 +184,9 @@ p {
     line-height: 1.4;
 }
 button {
-    text-align: justify;
+    text-align: left;
+    
+    margin-right: auto;
 }
 .bottom-content {
     display: flex;
@@ -203,25 +199,37 @@ button {
 }
 .overview {
     text-align: top;
-    width: 900px;
+    width: 50%;
+    float: left;
 }                           
 footer {
     width:800px;
     height: 100%;
     background: black;
     padding-bottom: 100px;
-    
     padding: 20px 2%;
     font-size: 14px;
     color: white;
     text-decoration: none;
 }
 .nav2 {
-    text-align: justify;
-    width: 100%;
-}
-footer nav a {
-    color: white;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .nav2 a {
+    color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
     text-decoration: none;
-    justify-content: bottom;
-}
+    font-size: 17px;
+    margin: 0px auto;
+  }
