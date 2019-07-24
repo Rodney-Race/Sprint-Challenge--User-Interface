@@ -92,9 +92,9 @@ header {
     margin: 4px;
 }
 .nav-item {
-    display: inline-block;
-    width: 50px;
-    margin: 75px 0px 0px 42px; 
+    
+    width: 90px;
+    margin: 75px 0px 0px 70px; 
     color: black;
 }
 .img {
@@ -146,20 +146,18 @@ header {
 .tboxl {
     text-align: justify;
     padding: 10px;
-    margin: 75px;
-    width: 330px;
-    height: 50px;
+    margin: 30px;
+    width: 400px;
+    height: 30px;
     
     
 }
 .tboxr {
     text-align: justify;
-    width: 330px;
+    width: 400px;
     padding: 10px;
-    margin: 55px;
-    height: 50px;
-    
-    
+    margin: 10px;
+    height: 50px;  
 }
 .timgl {
     height: 225px;
@@ -328,17 +326,18 @@ button {
 }                           
 footer {
     
-    width:820px;
-    height: 80px;;
+    width:830px;
+    height: 96px;;
     background: black;
-    padding-bottom: 100px;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 30px 1%;
     color: white;
     text-decoration: none;
 }
+nav {
+    margin: 6px;
+}
 a {
-    margin:1px;
+    margin:3px;
     height: 10px;
 }
 footer nav {
