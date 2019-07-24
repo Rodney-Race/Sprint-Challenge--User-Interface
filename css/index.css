@@ -145,14 +145,18 @@ header {
 .tboxl {
     text-align: justify;
     padding: 10px;
-    margin: 19px;
+    margin: 45px;
+    width: 350px;
+    height: 50px;
     
     
 }
 .tboxr {
     text-align: justify;
+    width: 350px;
     padding: 10px;
-    margin: 1px;
+    margin: 45px;
+    height: 50px;
     
     
 }
@@ -265,18 +269,16 @@ hr {
 
 .bboxl  {
     text-align: justify;
-    width: 450px;
-    padding: 70px 10;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin: 45px;
+    width: 350px;
     height: 50px;
-    
-    
 }
 .bboxr {
     text-align: justify;
-    width: 400px;
-    padding: 80px 10;
-    margin-bottom: 20px;
+    width: 350px;
+    padding: 10px;
+    margin: 45px;
     height: 50px;
     
 }
